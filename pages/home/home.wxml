@@ -2,5 +2,5 @@
 <text class="home-text">Hello World</text>
 <button class="home-button" size="mini">按钮</button>
 
-<view>2、知识点2</view>
-<view>test2</view>
+<view>1、知识点1</view>
+<view>test1</view>
