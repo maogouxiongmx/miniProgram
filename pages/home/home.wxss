@@ -1,0 +1,12 @@
+/* pages/home/home.wxss */
+.home-text {
+  color: red;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+.home-button {
+  margin-left: 20px;
+  display: block;
+}
