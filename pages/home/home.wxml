@@ -1,6 +1,18 @@
 <!--pages/home/home.wxml-->
 <text class="home-text">Hello World</text>
-<button class="home-button" size="mini">按钮</button>
+<button class="home-button" 
+        size="mini"
+        open-type="getUserInfo"
+        bindgetuserinfo="handleGetUserInfo">
+    获取用户信息
+</button>
 
+<!-- <image src="{{avatarUrl}}"></image>
+<view>{{nickName}}</view> -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
 <view>1、知识点1</view>
 <view>test</view>

@@ -3,5 +3,31 @@
     "pages/home/home",
     "pages/about/about"
   ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "小程序学习",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "orange",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbr/home0.png",
+        "selectedIconPath": "assets/tabbr/home.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分类",
+        "iconPath": "assets/tabbr/category0.png",
+        "selectedIconPath": "assets/tabbr/category.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap32.json"
 }
